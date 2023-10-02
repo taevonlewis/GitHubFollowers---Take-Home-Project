@@ -27,17 +27,18 @@ When showcasing user-specific details, emphasis is placed on displaying relevant
 While not professionally designed, the app demonstrates rudimentary design principles and underlines the importance of foundational design knowledge for developers.
 
 ## Time Investment
-Time spent: **[Your Time]** hours in total
+Time spent: **8** hours in total (so far)
 
 ## Completed Features
 The following **required** features have been completed:
 - [x] User Searchability
 - [x] Follower Search
-- [] Detailed Follower View
-- [] Favorite Usernames
-- [] Data Persistence between app launches
+- [ ] Detailed Follower View
+- [ ] Favorite Usernames
+- [ ] Data Persistence between app launches
 
 ## Visual Walkthrough
-A visual representation of the implemented user stories can be found below:
+A visual representation of the currently implemented user stories can be found below:
 
-[Your Video Link Here]
+<img src=https://github.com/taevonlewis/GitHubFollowers---Take-Home-Project/assets/65370736/740ee1c8-5ef2-4a4d-98a0-add37924d825/>
+
