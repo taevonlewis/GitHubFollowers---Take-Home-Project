@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		CE903A812AC9F9E900C5AC8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE903A802AC9F9E900C5AC8E /* AppDelegate.swift */; };
 		CE903A832AC9F9E900C5AC8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE903A822AC9F9E900C5AC8E /* SceneDelegate.swift */; };
-		CE903A852AC9F9E900C5AC8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE903A842AC9F9E900C5AC8E /* ViewController.swift */; };
 		CE903A8A2AC9F9EB00C5AC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE903A892AC9F9EB00C5AC8E /* Assets.xcassets */; };
 		CE903A8D2AC9F9EB00C5AC8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE903A8B2AC9F9EB00C5AC8E /* LaunchScreen.storyboard */; };
+		CE903A952ACA3B5800C5AC8E /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE903A942ACA3B5800C5AC8E /* SearchVC.swift */; };
+		CE903A972ACA3B8B00C5AC8E /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE903A962ACA3B8B00C5AC8E /* FavoritesListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE903A7D2AC9F9E900C5AC8E /* GitHubFollowers - Take Home Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHubFollowers - Take Home Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE903A802AC9F9E900C5AC8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE903A822AC9F9E900C5AC8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE903A842AC9F9E900C5AC8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE903A892AC9F9EB00C5AC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE903A8C2AC9F9EB00C5AC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE903A8E2AC9F9EB00C5AC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE903A942ACA3B5800C5AC8E /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		CE903A962ACA3B8B00C5AC8E /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 			children = (
 				CE903A802AC9F9E900C5AC8E /* AppDelegate.swift */,
 				CE903A822AC9F9E900C5AC8E /* SceneDelegate.swift */,
-				CE903A842AC9F9E900C5AC8E /* ViewController.swift */,
 				CE903A892AC9F9EB00C5AC8E /* Assets.xcassets */,
 				CE903A8B2AC9F9EB00C5AC8E /* LaunchScreen.storyboard */,
 				CE903A8E2AC9F9EB00C5AC8E /* Info.plist */,
+				CE903A942ACA3B5800C5AC8E /* SearchVC.swift */,
+				CE903A962ACA3B8B00C5AC8E /* FavoritesListVC.swift */,
 			);
 			path = "GitHubFollowers - Take Home Project";
 			sourceTree = "<group>";
@@ -134,7 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE903A852AC9F9E900C5AC8E /* ViewController.swift in Sources */,
+				CE903A972ACA3B8B00C5AC8E /* FavoritesListVC.swift in Sources */,
+				CE903A952ACA3B5800C5AC8E /* SearchVC.swift in Sources */,
 				CE903A812AC9F9E900C5AC8E /* AppDelegate.swift in Sources */,
 				CE903A832AC9F9E900C5AC8E /* SceneDelegate.swift in Sources */,
 			);
