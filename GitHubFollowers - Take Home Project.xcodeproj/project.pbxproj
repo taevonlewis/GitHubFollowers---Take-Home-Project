@@ -70,22 +70,54 @@
 		CE903A7F2AC9F9E900C5AC8E /* GitHubFollowers - Take Home Project */ = {
 			isa = PBXGroup;
 			children = (
+				CE997FE22ACA603800F1D519 /* Support */,
+				CE997FE12ACA5FF700F1D519 /* Extensions */,
+				CE997FE02ACA5FD500F1D519 /* Custom Views */,
+				CE997FDF2ACA5F9900F1D519 /* Screens */,
+				CE903A8E2AC9F9EB00C5AC8E /* Info.plist */,
+			);
+			path = "GitHubFollowers - Take Home Project";
+			sourceTree = "<group>";
+		};
+		CE997FDF2ACA5F9900F1D519 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE903A942ACA3B5800C5AC8E /* SearchVC.swift */,
+				CE903A962ACA3B8B00C5AC8E /* FavoritesListVC.swift */,
+				CE997FD42ACA53FF00F1D519 /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CE997FE02ACA5FD500F1D519 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE997FDA2ACA572100F1D519 /* GFAlertVC.swift */,
+				CE997FCC2ACA425D00F1D519 /* GFButton.swift */,
+				CE997FCE2ACA444D00F1D519 /* GFTextField.swift */,
+				CE997FD62ACA55AF00F1D519 /* GFTitleLabel.swift */,
+				CE997FD82ACA569400F1D519 /* GFBodyLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		CE997FE12ACA5FF700F1D519 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE997FDC2ACA5CB200F1D519 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE997FE22ACA603800F1D519 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				CE903A802AC9F9E900C5AC8E /* AppDelegate.swift */,
 				CE903A822AC9F9E900C5AC8E /* SceneDelegate.swift */,
 				CE903A892AC9F9EB00C5AC8E /* Assets.xcassets */,
 				CE903A8B2AC9F9EB00C5AC8E /* LaunchScreen.storyboard */,
-				CE903A8E2AC9F9EB00C5AC8E /* Info.plist */,
-				CE903A942ACA3B5800C5AC8E /* SearchVC.swift */,
-				CE903A962ACA3B8B00C5AC8E /* FavoritesListVC.swift */,
-				CE997FCC2ACA425D00F1D519 /* GFButton.swift */,
-				CE997FCE2ACA444D00F1D519 /* GFTextField.swift */,
-				CE997FD42ACA53FF00F1D519 /* FollowerListVC.swift */,
-				CE997FD62ACA55AF00F1D519 /* GFTitleLabel.swift */,
-				CE997FD82ACA569400F1D519 /* GFBodyLabel.swift */,
-				CE997FDA2ACA572100F1D519 /* GFAlertVC.swift */,
-				CE997FDC2ACA5CB200F1D519 /* UIViewController+Ext.swift */,
 			);
-			path = "GitHubFollowers - Take Home Project";
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
