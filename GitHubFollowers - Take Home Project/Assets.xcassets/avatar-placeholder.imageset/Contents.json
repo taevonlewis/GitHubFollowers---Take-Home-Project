@@ -20,17 +20,13 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
       "appearances" : [
         {
           "appearance" : "luminosity",
           "value" : "dark"
         }
       ],
-      "filename" : "avatar-placeholder-dark@2x 1.png",
+      "filename" : "avatar-placeholder-dark@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -40,17 +36,13 @@
       "scale" : "3x"
     },
     {
-      "idiom" : "universal",
-      "scale" : "3x"
-    },
-    {
       "appearances" : [
         {
           "appearance" : "luminosity",
           "value" : "dark"
         }
       ],
-      "filename" : "avatar-placeholder-dark@3x.png",
+      "filename" : "empty-state-logo-dark@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
